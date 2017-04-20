@@ -1,0 +1,8 @@
+## Title: World Quest Tips & Timers
+## Author: Salty Suggestions of Shadowsong(US)
+## Interface: 70100
+## Version: 1.25(7.1.0)
+## SavedVariables: WorldQuestTipsData
+## Notes: Adds information to World Quest tooltips including custom notes, tracks completion times and adds TomTom arrows and more!
+
+WorldQuestTips.lua

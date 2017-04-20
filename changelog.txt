@@ -1,0 +1,104 @@
+19-Nov-16: v1.25[list][*][Achievement] Added tracking for the 4 PvP world quests required for "Free For All, More For Me"
+[*][Bug] Fix for 'SetClosestWaypoint' errors
+[*][Bug] Fix for enigmaticHUD trying to find player locations at the wrong times (caused error in raids)[/list]
+
+12-Nov-16: v1.24[list][*][TomTom] Some waypoint exception changes/additions (inc ticket #8)
+[*][Bug] Possible fix for ticket #9
+[*][Bug] Fix for ticket #10[/list]
+
+26-Oct-16: v1.23[list][*][Bug] Added one more catch for quests with no expiry time (ticket #7)
+[*][Bug] Fixed average displays for World Quests that reward Honor[/list]
+
+26-Oct-16: v1.22[list][*]TOC update for 7.1.0
+[*][TomTom] Some waypoint exception changes
+[*][Bug] Blizzard removed "TitleRegion" from frames - recoded dragging
+[*][Bug] Updated critera ID's for Pet/Fishing achievements that changed in 7.1.0
+[*][Bug] Fixed sticky "Alt-Click" issue when using conflicting addons
+[*][Bug] Added catch for quests with no objectives or expiry times (not sure why they exist)[/list]
+
+21-Oct-16: v1.21[list][*][Reputation] Now shows rep on faction insignia (Optional)
+[*][Reputation] Now shows alts reps on faction BOA insignia (Optional)
+[*][Reputation] Now shows current rep on Emissary quest tooltips
+[*][Achievement] Now shows progress to "Fishing 'round the Isles" on fishing world quests that you don't have credit for
+[*][Bug]Hopefully fixed cause of ticket #6[/list]
+
+14-Oct-16: v1.20[list][*]NEW: Enigmatic helper (Optional)
+[*][Enigmatic helper] When on the quest Enigmatic, a frame appears with all the possible paths (13 at this point, all thanks to Wowhead user varenne)
+[*][Enigmatic helper] Clicking on the path you see opens a second frame, "Enigmatic HUD" (Optional)
+[*][Enigmatic helper] Keep the player arrow within the path of the Enigmatic HUD to complete the quest!
+[*][Enigmatic helper] If you have the Enigmatic HUD off, just click the path you see to set as your reminder
+[*][Enigmatic helper] Sizes, layouts and positions are configurable
+[*][TomTom] Waypoints now remove once you get to the quest area, unless they are exceptions
+[*][TomTom] Most exception waypoints stay on quest pick up unless specified, let me know if you see some that should get removed
+[*][TomTom] Waypoints are now only up if the quest is being tracked (so shift click to have multiple)
+[*][Conflict] Alt clicking World Quests in "Angry Worlds Quests" list now opens the quest note frame (if enabled)
+[*][Core] Fixed finding unseen world quests from other zones (which can be done using other addons)[/list]
+
+7-Oct-16: v1.19[list][*]Fixed incorrect quest/waypoint association
+[*]Fixed waypoint zones on exception waypoints when using other addons to set them from other zones[/list]
+
+7-Oct-16: v1.18[list][*]Pushed as release as my Ley Race error was actually a fatal one[/list]
+
+7-Oct-16: v1.17.1b[list][*]Fixed an error that was preventing the Ley Race waypoints from appearing[/list]
+
+6-Oct-16: v1.17[list][*]Adds waypoints for Ley Races (Optional)
+[*]Fixed wrong waypoints when selecting world quests from other zones (which can be done using other addons)[/list]
+
+4-Oct-16: v1.16[list][*]Now hides small gold rewards - who cares about the 1g83s50c anyway? (Optional)
+[*]Fixed secondary rep display if primary was capped[/list]
+
+30-Sep-16: v1.15[list][*]Should now work for all localizations (Translations still required)
+[*]Used as many of Blizzards global strings as I could to help with translations
+[*]Started frame work for translations
+[*]Option to hide factions at exalted... now hides factions at exalted (instead of capped)[/list]
+
+28-Sep-16: v1.14.2b[list][*]Testing potential localization solution (revert to previous build if it fails)
+[*]Fixed Eye of Azshara zone quest detection (fyi - wowpedia has the wrong MapId listed)[/list]
+
+26-Sep-16: v1.14.1b[list][*]Temporary fix for other locales (Except for the pet achievement info - still to come)[/list]
+
+26-Sep-16: v1.14[list][*]You can now also click in the "[Quest] completed in..." link to edit it's note/time
+[*]Option added: Show/Hide times and reward per minute
+[*]Option added: Show/Hide factions once exalted
+[*]Option added: Show/Hide current reputation beside faction names
+[*]Waypoints related to the current quest and are still up should once again hide on completion
+[*]Fixed an error that was showing the wrong rep value when 2 reps were on the tooltip
+[*][Battle on the Broken Isles] now hides once complete (was showing 0/30 instead)[/list]
+
+24-Sep-16: v1.13[list][*]Fully operational again?[/list]
+
+24-Sep-16: v1.121[list][*]Nope, not sorted. Disabled note feature - proper fix soon[/list]
+
+24-Sep-16: v1.12[list][*]Ok. Now it's sorted. I think. Sorry.[/list]
+
+24-Sep-16: v1.11[list][*]Potentially critical bug fix - whoops.[/list]
+
+23-Sep-16: v1.10[list][*]NEW: Personal notes able to be applied to any world quest
+[*]Alt-Click opens up a quest information page (Optional)
+[*]Quest info page allows you to view/change timespent and times completed if you wish
+[*]Quest info page allows you to simply set a personal note in the tooltip
+[*]Quest info page gives you a 'cut and paste' wowhead link if you're interested
+[*]Made options menu load better, and moveable (Drag title bar)
+[*]Waypoints now work with "World Quest Tracker" installed - if you want to use mine instead of theirs
+[*]Does anyone read this?
+[*]Time remaining (in hours/minutes) added to quest tracker tooltips
+[*]Faction info added to quest tracker tooltip (same as worldmap tooltip)
+[*]Formatting changes to tooltip
+[*]Fixed an error on artifact per minute calculations over 999[/list]
+
+22-Sep-16: v1.02[list][*]Fixed Time/Average time placement on world map (sometimes it was half-spaced)
+[*]Only shows "Average [reward] per minute" if the average time is more than 1 minute. Looks deceptive otherwise.
+[*]Added more waypoint exceptions (skimmed through the "WANTED/DANGER" quests Wowhead comments) not personally verified, mostly from user varenne, thanks Wowhead & varenne!
+[*]Better checking for active worldquests on entering world[/list]
+
+21-Sep-16: v1.01[list][*]Added "PreciseWorldQuestTimers" functionality - thanks Vildiesel
+[*]Added current quest duration to WorldMapToolTip - it pauses if you leave the area (and forgets the duration if you made no progress)
+[*]Waypoints added for quest [Undersea Survey] - Adds all four pylons[/list]
+
+20-Sep-16: v1.00[list][*]RELEASE /beer
+[*]Added TomTom support (Optional)
+[*]Fixed bug preventing options from showing ( /wqt )
+[*]Added option to not track Pet Battle achievements in tooltips
+[*]Minor formatting changes[/list]
+
+19-Sep-16: v0.10[list][*]Initial beta release[/list]
